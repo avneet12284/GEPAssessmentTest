@@ -1,3 +1,8 @@
+# Steps
+
+Please git clone this project, do an npm install and do an npm start to start server. Then
+app will start on http://localhost:4200
+
 # GEPTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.

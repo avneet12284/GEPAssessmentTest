@@ -1,0 +1,11 @@
+<div class="container">
+  <ul>
+    <li *ngFor ="let data of dataValues$ | async">
+        {{data}}
+    </li>
+  </ul>
+  <a [routerLink]="['/']" >Back</a>
+</div>
+<GEPTest-logger [dataValuesObservable]="dataValues$"></GEPTest-logger>
+
+

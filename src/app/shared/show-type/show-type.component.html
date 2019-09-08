@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let configType of configTypes$ | async">
+    <button (click)="clickButton(configType)">{{configType}}</button>
+  </li>
+</ul>
+
+
+
