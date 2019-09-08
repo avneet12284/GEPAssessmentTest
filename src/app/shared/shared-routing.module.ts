@@ -4,6 +4,7 @@ import { ShowTypeComponent } from './show-type/show-type.component';
 
 
 const routes: Routes = [
+  {path:'logger', loadChildren: '../userlog/userlog.module#UserlogModule',  pathMatch: 'full'},
   {path:'', component: ShowTypeComponent,  pathMatch: 'full'}
 ];
 
